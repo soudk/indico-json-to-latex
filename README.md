@@ -30,14 +30,16 @@ The python libraries to be installed, e.g. via `pip install ...`
 4. Run the notebook by going to the navigation bar and selecting "Kernel" -> "Restart and Run All"
 5. Your latex file should now be in your current working directory and called "abstracts.tex"
 
-## Future work
-This was a rough way of converting the abstracts into a latex booklet for WNPPC 2021. Some development can be done to make this script better. Some things off the top of my head include:
+## Future work and Development
+This was a rough way of converting the abstracts into a latex booklet for WNPPC 2021. Some development can be done to make this script better. 
+
+### To do:
 
 1. Accept not-so-well formatted schedule files (e.g. accept csv, xls, txt, ... ) formats
 2. Check the abstract ID variable that is pulled from the JSON is the public-facing ID that indico will have on the site for that abstract, and not some internal one. 
 3. Also output a timetable in LaTeX based off the formatting desired. To do this, you just need to have a template and populate the variables in like how the abstract booklet was made. 
 
-## Development
+### Development and Contributing
 If you do use this script, and/or develop it further, please do consider reaching out to me so you can commit your changes here and we can make future conference organisers lives easier. 
 
 
