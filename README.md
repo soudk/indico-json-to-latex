@@ -25,10 +25,11 @@ The python libraries to be installed, e.g. via `pip install ...`
 
 ### Using the notebook
 1. Open the jupyter notebook by writing `jupyter notebook` in the terminal once in the directory where this git repository is cloned. 
-2. Change cell 2 line 10 of the notebook to be the filename (including location of the file) of your "abstracts.json" file you exported from indico earleir. 
-3. Change cell 3 line 7 of the notebook to be the filename of your conference schedule .xlsx file
-4. Run the notebook by going to the navigation bar and selecting "Kernel" -> "Restart and Run All"
-5. Your latex file should now be in your current working directory and called "abstracts.tex"
+2. Open "abstracts-chapter.ipynb".
+3. Change cell 2 line 10 of the notebook to be the filename (including location of the file) of your "abstracts.json" file you exported from indico earleir. 
+4. Change cell 3 line 7 of the notebook to be the filename of your conference schedule .xlsx file
+5. Run the notebook by going to the navigation bar and selecting "Kernel" -> "Restart and Run All"
+6. Your latex file should now be in your current working directory and called "abstracts.tex"
 
 ## Future work and Development
 This was a rough way of converting the abstracts into a latex booklet for WNPPC 2021. Some development can be done to make this script better. 
